@@ -48,7 +48,7 @@ public class CardFactory {
         deckList.add(card3);
 
 
-        Card card4 = new Card("blue eyes white dragon4", 11,
+        Card card4 = new Card("blue eyes white dragon4", 5,
                 "\n      (\\-\"\"\"-/)\n" +
                         "       |     |\n" +
                         "       \\ ^ ^ /  .-.\n" +
@@ -67,7 +67,7 @@ public class CardFactory {
         deckList.add(card4);
 
 
-        Card card5 = new Card("blue eyes white dragon5", 15,
+        Card card5 = new Card("blue eyes white dragon5", 4,
                 "\n  .--,       .--,\n" +
                         " ( (  \\.---./  ) )\n" +
                         "  '.__/o   o\\__.'\n" +
@@ -83,7 +83,7 @@ public class CardFactory {
         deckList.add(card5);
 
 
-        Card card6 = new Card("a monkey", 1,
+        Card card6 = new Card("a monkey", 3,
                 "\n         ||\n" +
                         "         ||\n" +
                         "        _;|\n" +
@@ -122,7 +122,7 @@ public class CardFactory {
         deckList.add(card7);
 
 
-        Card card8 = new Card("pokemon", 18,
+        Card card8 = new Card("pokemon", 6,
                 "\n       o        o\n" +
                         "  ___   \\      /   ___\n" +
                         ".` __`-. \\/\\/\\/ .-'__ '.\n" +
@@ -136,7 +136,7 @@ public class CardFactory {
                         "  \\_.-` A/  & \\A '-._/\n");
         deckList.add(card8);
 
-        Card card9 = new Card("blue eyes white dragon9", 19,
+        Card card9 = new Card("blue eyes white dragon9", 1,
                 " \n        ,\n" +
                         "        /|      __\n" +
                         "       / |   ,-~ /\n" +
@@ -159,7 +159,7 @@ public class CardFactory {
         deckList.add(card9);
 
 
-        Card card10 = new Card("blue eyes white dragon10", 100,
+        Card card10 = new Card("miranha", 2,
                 "\n              (\n" +
                         "               )\n" +
                         "              (\n" +
