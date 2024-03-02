@@ -43,6 +43,11 @@ public class Engine {
     public void gameRound() {
        listOfPlayers.get(0).run();
        listOfPlayers.get(1).run();
+
+       //adicionei a socapa
+
+
+        listOfPlayers.get(0).playerSocket.getOutputStream().write();
         /*try {
             listOfPlayers.get(0).roundPrompt();
             listOfPlayers.get(1).roundPrompt();

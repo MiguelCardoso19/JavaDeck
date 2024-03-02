@@ -27,7 +27,7 @@ public class Server {
 
             while (serverSocket.isBound() && connectionNumber < 2) {
 
-                System.out.println("##### SERVER INITIALIZED #####");
+                System.out.println("##### GAME SERVER INITIALIZED #####");
                 Socket playerSocket = serverSocket.accept();
                 connectionNumber++;
                 ExecutorService fixedPool = Executors.newFixedThreadPool(2);
@@ -93,7 +93,7 @@ public class Server {
                 int randomIndexOfColors = (int) (Math.random() * colors.length);
 
                 out.println(" ");
-                out.println("\u001B[32m" + "########## WELCOME TO THE CHAT ########## " + "\u001B[0m");
+                out.println("\u001B[32m" + "########## WELCOME TO THE CARD GAME ########## " + "\u001B[0m");
                 out.println(" ");
                 out.println("Enter your name below");
                 Thread.currentThread().setName(colors[randomIndexOfColors] + in.readLine() + "\u001B[0m");
