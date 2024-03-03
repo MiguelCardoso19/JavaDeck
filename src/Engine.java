@@ -22,7 +22,7 @@ public class Engine {
                 try {
                     if (listOfPlayers.get(0).getScore() > listOfPlayers.get(1).getScore()) {
                         listOfPlayers.get(0).broadcastMessage(listOfPlayers.get(0).getName() + "\u001B[33m"+" Won the Game!");
-                        listOfPlayers.get(0).broadcastMessage("\u001B[33m"+"\n"+"\n" +
+                        listOfPlayers.get(0).out.println("\u001B[33m"+"\n"+"\n" +
                                 "             ___________\n" +
                                 "            '._==_==_=_.'\n" +
                                 "            .-\\:      /-.\n" +
@@ -36,7 +36,7 @@ public class Engine {
 
                     } else if (listOfPlayers.get(0).getScore() < listOfPlayers.get(1).getScore()) {
                         listOfPlayers.get(1).broadcastMessage(listOfPlayers.get(1).getName() + "\u001B[33m"+ " Won the Game");
-                        listOfPlayers.get(1).broadcastMessage("\u001B[33m"+"\n"+"\n" +
+                        listOfPlayers.get(1).out.println("\u001B[33m"+"\n"+"\n" +
                                 "             ___________\n" +
                                 "            '._==_==_=_.'\n" +
                                 "            .-\\:      /-.\n" +
@@ -115,9 +115,9 @@ public class Engine {
                     listOfPlayers.get(0).broadcastMessage(listOfPlayers.get(0).getName() + " Won this round!");
                     listOfPlayers.get(0).setScore(10);
                     listOfPlayers.get(0).broadcastMessage(listOfPlayers.get(0).getName()+" :  "
-                            +listOfPlayers.get(0).getScore());
+                            +listOfPlayers.get(0).getScore()+" points");
                     listOfPlayers.get(0).broadcastMessage(listOfPlayers.get(1).getName()+" :  "
-                            +listOfPlayers.get(1).getScore());
+                            +listOfPlayers.get(1).getScore()+" points");
                 } else {
                     listOfPlayers.get(0).broadcastMessage(listOfPlayers.get(1).getName() + " Won this round!");
                     listOfPlayers.get(1).setScore(10);
