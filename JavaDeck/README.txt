@@ -28,7 +28,7 @@ Choose a unique username to represent yourself in the game and wait for your opp
 
 Battle Opponents:
 Play cards strategically, at each round your chosen card will be compared to your opponent's.
-Draw a card at each round until your hand is empty.
+Type the option number to draw a card at each round until your hand is empty.
 
 Victory Conditions:
 Win rounds and accumulate the highest score.

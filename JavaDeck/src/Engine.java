@@ -33,12 +33,6 @@ public class Engine {
                                 "                 ) (\n" +
                                 "               _.' '._\n" +
                                 "              `\"\"\"\"\"\"\"`\n");
-                        listOfPlayers.get(0).out.println("" +
-                                "██    ██  ██████  ██    ██     ██     ██  ██████  ███    ██ \n" +
-                                " ██  ██  ██    ██ ██    ██     ██     ██ ██    ██ ████   ██ \n" +
-                                "  ████   ██    ██ ██    ██     ██  █  ██ ██    ██ ██ ██  ██ \n" +
-                                "   ██    ██    ██ ██    ██     ██ ███ ██ ██    ██ ██  ██ ██ \n" +
-                                "   ██     ██████   ██████       ███ ███   ██████  ██   ████" + "\u001B[0m");
 
                     } else if (listOfPlayers.get(0).getScore() < listOfPlayers.get(1).getScore()) {
                         listOfPlayers.get(1).broadcastMessage(listOfPlayers.get(1).getName() + "\u001B[33m"+ " Won the Game");
@@ -53,12 +47,6 @@ public class Engine {
                                 "                 ) (\n" +
                                 "               _.' '._\n" +
                                 "              `\"\"\"\"\"\"\"`\n");
-                        listOfPlayers.get(1).out.println("" +
-                                "██    ██  ██████  ██    ██     ██     ██  ██████  ███    ██ \n" +
-                                " ██  ██  ██    ██ ██    ██     ██     ██ ██    ██ ████   ██ \n" +
-                                "  ████   ██    ██ ██    ██     ██  █  ██ ██    ██ ██ ██  ██ \n" +
-                                "   ██    ██    ██ ██    ██     ██ ███ ██ ██    ██ ██  ██ ██ \n" +
-                                "   ██     ██████   ██████       ███ ███   ██████  ██   ████" + "\u001B[0m");
                     }
                 } catch (IOException e) {
                     throw new RuntimeException(e);

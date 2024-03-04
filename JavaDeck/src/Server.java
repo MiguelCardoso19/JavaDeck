@@ -148,11 +148,12 @@ public class Server {
                         "        __\\/////////_______\\///________\\///________\\///________\\///________\\///__\\//////" +
                         "//////_____\\///////////////________\\/////////__\\///________\\///__" + "\u001B[0m");
 
-                out.println("\u001B[36m" + "\nJavaDeck is a multiplayer text-based card game developed in Java by Miguel Cardoso and Pedro Ferreira during their\n" +
-                        "Full Stack Bootcamp at Code for All during a weekend-long challenge.\n" +
-                        "The game features hybrid animal-themed cards with unique scores.\n" +
-                        "Players engage in tactical battles choosing which card to lay at each round, its score gets compared\n" +
-                        "and challengers continue laying cards until their hands are empty."+"\u001B[0m");
+                out.println("\u001B[36m" + "\n       JavaDeck is a multiplayer text-based card game developed in Java by Miguel" +
+                        " Cardoso and Pedro Ferreira during their\n" +
+                        "       Full Stack Bootcamp at Code for All during a weekend-long challenge.\n" +
+                        "       The game features hybrid animal-themed cards with unique scores.\n" +
+                        "       Players engage in strategic battles, comparing scores at each round and drawing cards until " +
+                        "their hands are empty."+"\u001B[0m");
 
                 out.println(" ");
                 out.println("Enter your name below");

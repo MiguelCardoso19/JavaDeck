@@ -6,6 +6,7 @@ public class CardFactory {
 
     public void getDeck() {
 
+
         Card card1 = new Card("ZUMBAT", 10,
                 "\u001B[33m"+"\n┌─────────────────┐\n" +
                         "│     <ZUMBAT>    │\n" +
@@ -152,7 +153,7 @@ public class CardFactory {
         deckList.add(card8);
 
         Card card9 = new Card("DEBUGS_BUNNY", 1,
-                "\u001B[36m"+" \n┌─────────────────┐\n" +
+                " \n┌─────────────────┐\n" +
                         "│ <DEBUGS_BUNNY>  │\n" +
                         "│      /|      __ │\n" +
                         "│     / |   ,-~ / │\n" +
@@ -165,12 +166,12 @@ public class CardFactory {
                         "│  >._-' _./      │\n" +
                         "│ /   \"~\"  \\      │\n" +
                         "│/  .  _,  SCORE:1│\n" +
-                        "└─────────────────┘"+"\u001B[0m");
+                        "└─────────────────┘");
         deckList.add(card9);
 
 
         Card card10 = new Card("MIRANHA", 2,
-                "\u001B[36m"+"\n┌─────────────────┐\n" +
+                "\n┌─────────────────┐\n" +
                         "│<MIRANHA> )      │\n" +
                         "│         (       │\n" +
                         "│   /\\  .\"\"\".  /\\ │\n" +
@@ -183,7 +184,7 @@ public class CardFactory {
                         "│// /.-(() ())-.\\ │\n" +
                         "│ \\|)   '---'   (|│\n" +
                         "│ `\\)  SCORE:2  (/│\n" +
-                        "└─────────────────┘ "+"\u001B[0m");
+                        "└─────────────────┘ ");
         deckList.add(card10);
     }
 
