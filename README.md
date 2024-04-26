@@ -10,9 +10,9 @@ Overview: JavaDeck is a multiplayer text-based card game developed in Java by Mi
 
 ## Technologies Used:
 
-- Java;
-- Socket Programming;
-- Threading.
+- Java
+- Socket Programming
+- Threading
 
 ## How to Play:
 
