@@ -1,44 +1,49 @@
-JavaDeck
+# JavaDeck
 
-Overview:
-JavaDeck is a multiplayer text-based card game developed in Java by Miguel Cardoso and Pedro Ferreira during their
-Full Stack Bootcamp at Code for All during a weekend-long challenge.
-The game features hybrid animal-themed cards with unique scores.
-Players engage in strategic battles, comparing scores at each round and drawing cards until their hands are empty.
+Overview: JavaDeck is a multiplayer text-based card game developed in Java by Miguel Cardoso and Pedro Ferreira during their Full Stack Bootcamp at Code for All during a weekend-long challenge. The game features hybrid animal-themed cards with unique scores. Players engage in strategic battles, comparing scores at each round and drawing cards until their hands are empty.
 
-Features:
+## Features:
+
 - Text-Based Interface: Enjoy a simple and nostalgic text-based interface.
-
 - Multiplayer Battles: Challenge your friends in real-time multiplayer duels.
-
 - Hybrid-Animal Cards: Each card features a creature and a score for strategic gameplay.
 
+## Technologies Used:
 
-How to Play:
+- Java;
+- Socket Programming;
+- Threading.
 
-Getting Started:
-Ensure Java is installed on your system.
-Run the game server using the provided .jar file.
+## How to Play:
 
-Connect to the Server:
-Launch the game client and connect to the server and specify your desired port number.
+### Getting Started:
+1. Ensure Java is installed on your system.
+2. Run the game server using the provided .jar file.
 
-Enter the Arena:
-Choose a unique username to represent yourself in the game and wait for your opponent to do the same.
+### Connect to the Server:
+1. Launch the game client.
+2. Connect to the server and specify your desired port number.
 
-Battle Opponents:
-Play cards strategically, at each round your chosen card will be compared to your opponent's.
-Draw a card at each round until your hand is empty.
+### Enter the Arena:
+1. Choose a unique username to represent yourself in the game.
+2. Wait for your opponent to do the same.
 
-Victory Conditions:
-Win rounds and accumulate the highest score.
+### Battle Opponents:
+1. Play cards strategically, comparing scores at each round.
+2. Draw a card at each round until your hand is empty.
 
-System Requirements:
-Java Runtime Environment (JRE)
-Internet connection for remote multiplayer functionality.
+### Victory Conditions:
+- Win rounds and accumulate the highest score.
 
-How to Run:
-- Open the terminal on your machine and navigate to the file's directory.
-- Type "java -jar JavaDeck.jar".
-- Set the desired port number.
-- Enjoy
+## System Requirements:
+- Java Runtime Environment (JRE)
+- Internet connection for remote multiplayer functionality.
+
+## How to Run:
+
+1. Open the terminal on your machine and navigate to the file's directory.
+2. Type `java -jar JavaDeck.jar`.
+3. Set the desired port number.
+4. Enjoy!
+
+
